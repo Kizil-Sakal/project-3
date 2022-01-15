@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Survey Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      
+    <form action="result.html" id="survey-form">
+        
+      <div id="container">
+      
+        <center>
+            <h1 id="title"><p><span style="color: white;">NET</span><span style="color: red;">FLIX</span></p></h1>
+        </center>
+        <center>
+        <p id="description">
+          Thank you for signing up at Netflix. Tell us more about your self
+        </p>
+        </center>
+    
+        <div id="form">
+          <br>
+          <label for="name">Name</label>
+          <br />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"  style="margin: 10px 10px; height: 30px; width: 90%;" 
+          />
+          <br />
+          <label for="age">Age</label>
+          <br />
+          <input type="text" name="age" id="age" placeholder="Age" style="margin: 10px 10px; height: 30px; width: 90%;" />
+          <br />
+          <label for="email">Email</label>
+          <br />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Enter your email" style="margin: 10px 10px ; height: 30px; width: 90%;"
+          />
+          <br />
+          <label for="content">Content type</label>
+          <br />
+          <select name="content" id="content" style="margin: 10px 10px 0px ; height: 30px; width: 36%; width: 90%;">
+            <option value="series">Series</option>
+            <option value="movies">Movies</option>
+            <option value="anime">Anime</option>
+          </select>
+        
+          <div>
+            <br />
+            <h5 style="margin-bottom: 5px; margin-top: 10px; margin-left: 10px; color:white" >Movie type</h5>
+            <input type="checkbox" name="type1" id="type1" />
+            <label for="type1">Comedy</label>
+            <br />
+            <input type="checkbox" name="type2" id="type2" />
+            <label for="type2">Action</label>
+            <br />
+            <input type="checkbox" name="type3" id="type3" checked />
+            <label for="type3">Romance</label>
+            <br />
+          </div>
+          <div>
+            <h5 style="margin-bottom: 5px; margin-left: 10px; color:white">Gender</h5>
+            <input type="radio" name="male" id="male" />
+            <label for="male">Male</label>
+            <br />
+            <input type="radio" name="Female" id="Female" />
+            <label for="Female">Female</label>
+            <br />
+            <input type="radio" name="other" id="other" />
+            <label for="other">Other</label>
+            <br />
+          </div>
+          <div>
+            <h5 style="margin-bottom: 5px; margin-left: 10px; color:white">Feed back</h5>
+            <textarea
+              name="comment"
+              id="comment"
+              cols="30"
+              rows="10"
+              placeholder="Any comment" style="width: 80%; margin-left: 10px;"
+            ></textarea>
+            </div>
+          </div>
+          <input type="submit" value="Submit" id="submit" />
+        </div>
+      </div>
+      
+    </form>
+ 
+  </body>
+</html>

@@ -1,0 +1,38 @@
+#container{
+    background-color: white;
+    background-image: url(./background_image.jpg);
+ 
+}
+#form {
+
+    background-color: #060503;
+    width: 35%;
+    margin: auto;
+}
+label {
+    color: white;
+    margin-left: 10px;
+}
+#title{
+    color: red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    width: 50%;
+    font-style:oblique;
+}
+#description{
+    margin: 10px;
+    font-size: 25px;
+    color: snow;
+    margin-top: 0px;
+    
+}
+
+#submit{
+    margin: 10px 100px 0px 750px;
+    width: 90px;
+    background-color: orangered;
+}
+input{
+    margin-left: 10px;
+}
